@@ -56,6 +56,23 @@ li a:hover {
     height: 111px;
 }
 /** Footer **/
+footer {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+}
+.pFooter {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.copyRight {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
 
 /** Page d'Accueil **/
 .container {
@@ -86,4 +103,17 @@ li a:hover {
 /** Page Contact **/
 .pInfosPerso {
     font-family: Arial, sans-serif;
+    float: left;
+}
+.pInfosPerso p {
+    height: 40px;
+    
+}
+.logoInfosPerso {
+    width: 50px;
+    float: left;
+    margin-top: 110px;
+}
+.logo {
+    margin-top: 10px;
 }
