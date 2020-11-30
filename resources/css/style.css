@@ -106,13 +106,23 @@ footer {
     float: left;
 }
 .pInfosPerso p {
-    height: 40px;
-    
+    height: 20px;   
+}
+.address {
+    margin-top: 20px;
+}
+.phone {
+    margin-top: 35px;
+}
+.mail {
+    margin-top: 33px;
+}
+.github {
+    margin-top: 34px;
 }
 .logoInfosPerso {
     width: 50px;
     float: left;
-    margin-top: 110px;
 }
 .logo {
     margin-top: 10px;
