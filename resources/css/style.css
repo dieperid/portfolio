@@ -88,6 +88,9 @@ footer {
     float: left;
     height: auto;
 }
+.photoProfil {
+    width: 300px;
+}
 .textProfil {
     width: 75%;
     float: left;
@@ -101,6 +104,10 @@ footer {
 }
 
 /** Page Contact **/
+.logo {
+    width: 40px;
+    margin-top: 10px;
+}
 .pInfosPerso {
     font-family: Arial, sans-serif;
     float: left;
@@ -123,7 +130,4 @@ footer {
 .logoInfosPerso {
     width: 50px;
     float: left;
-}
-.logo {
-    margin-top: 10px;
 }
