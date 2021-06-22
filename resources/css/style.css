@@ -8,32 +8,35 @@ html, body {
     padding: 0;
 }
 /** Barre de navigation **/
-.navbar {
+header {
+    width: 100%;
     height: 100px;
     background-color: black;
 }
+.navbar {
+    height: 100%;
+}
 ul {
-    width: 100%;
-    height:100px;
+    text-align: right;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    width: 30%;
+    height:100%;
     margin: 0;
-    
     padding: 0;
 }
 li {
-    float: left;
     list-style-type: none;
-    width: 5%;
     background-color: rgba(255, 255, 255, 0.3);
     text-align: center;
-    margin-top: 23px;
-    padding: 15px;
-}
-li:first-child {
-    margin-left: 15%;
+    border-radius: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10%;
+    margin-right: 3%;
 }
 li a {
     text-transform: uppercase;
-    display: block;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -41,14 +44,15 @@ li a {
     font-size: 20px;
 }
 li a:hover {
+    text-decoration: underline;
     color: coral;
 }
 .active {
     color: coral;
 }
 .navbarLogo {
-    height: 111px;
-    width: 60%;
+    height: 100%;
+    width: 70%;
     float: left;
 }
 .logoNavBar {
@@ -58,11 +62,12 @@ li a:hover {
 }
 /** Footer **/
 footer {
+    width: 100%;
     background-color: black;
     color: white;
     font-size: 20px;
     position: absolute;
-    bottom: 0;
+    bottom: 0%;
 }
 .pFooter {
     float: left;
@@ -77,23 +82,26 @@ footer {
 
 /** Page d'Accueil **/
 .container {
-    margin-left: 150px;
-    margin-right: 150px;
-    width: 1620px;
+    height: 100%;
+    margin-top: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
     overflow: auto;
     font-family: arial, sans-serif;
 }
 .imgProfil {
     text-align: left;
-    width: 20%;
+    width: 30%;
     float: left;
     height: auto;
 }
 .photoProfil {
-    width: 300px;
+    width: 70%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .textProfil {
-    width: 80%;
+    width: 70%;
     float: left;
     height: auto;
     font-size: 16px;
@@ -145,21 +153,53 @@ footer {
 }
 
 @media only screen and (max-width: 1500px) {
-    
+    .navbarLogo {width: 55%;}
+    ul {width: 45%;}
 }
 
 @media only screen and (max-width: 1200px) {
-    
+    .navbarLogo {width: 45%;}
+    ul {width: 55%;}
 }
 
 @media only screen and (max-width: 900px) {
-    
+    .navbarLogo {width: 35%;}
+    ul {width: 65%;}
+    .logoNavBar {width: 155px; margin-top: 5px; margin-bottom: 5px;}
+    .imgProfil {text-align: left; width: 100%; height: auto;}
+    .photoProfil {width: 70%; margin-top: auto; margin-bottom: auto; margin-left: 15%; margin-right: 15%;}
+    .textProfil {width: 100%; margin-top: auto; margin-bottom: 10%; text-align: justify;}
+    footer {position: fixed;}
+    .ProjetsPersonnel {margin-bottom: 15%;}
+    .pInfosPerso {margin-bottom: 15%;}
+}
+
+@media only screen and (max-width: 750px) {
+    .navbarLogo {width: 60%;}
+    ul {width: 35%; grid-template-columns: auto;}
+    .logoNavBar {width: 145px; margin-top: 10px; margin-bottom: 10px;}
+    .textProfil {width: 100%; margin-top: auto; margin-bottom: 20%; text-align: justify;}
+    li a {font-size: 18px;}
+    li {padding: 2%; margin-right: 0%;}
+    footer {font-size: 18px;}
+    .pFooter {width: 70%;}
+    .copyRight {width: 30%;}
 }
 
 @media only screen and (max-width: 600px) {
-    
+    .logoNavBar {width: 145px; margin-top: 10px; margin-bottom: 10px;}
+    li a {font-size: 16px;}
+    li {padding: 3%; margin-right: 0%;}
+    footer {font-size: 16px;}
+    .pFooter {width: 70%;}
+    .copyRight {width: 30%;}
 }
 
-@media only screen and (max-width: 300px) {
-    
+@media only screen and (max-width: 500px) {
+    .logoNavBar {width: 145px; margin-top: 10px; margin-bottom: 10px;}
+    li a {font-size: 15px;}
+    li {padding: 4%; margin-right: 0%;}
+    footer {font-size: 15px;}
+    .pFooter {width: 70%;}
+    .copyRight {width: 30%;}
 }
