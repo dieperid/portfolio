@@ -1,6 +1,6 @@
 version: "3.8"
 services:
-  projetPortfolio:
+  sitePortfolio:
     image: httpd:latest
     ports:
       - 8080:80
