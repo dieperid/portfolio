@@ -1,5 +1,16 @@
-span.rev { unicode-bidi:bidi-override; direction:rtl }
-span.rev.email:before { content:"em.ki" }
-span.rev.email:after { content:"knirepeid.divad" }
-span.rev.phone:before { content:"03 09 956 " }
-span.rev.phone:after { content:" 14+" }
+span.rev {
+	unicode-bidi: bidi-override;
+	direction: rtl;
+}
+span.rev.email:before {
+	content: "em.ki";
+}
+span.rev.email:after {
+	content: "knirepeid.divad";
+}
+span.rev.phone:before {
+	content: "03 09 956 ";
+}
+span.rev.phone:after {
+	content: " 14+";
+}
