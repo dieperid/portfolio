@@ -1,16 +1,27 @@
 span.rev {
-	unicode-bidi: bidi-override;
-	direction: rtl;
+    unicode-bidi: bidi-override;
+    direction: rtl;
 }
 span.rev.email:before {
-	content: "hc.knirepeiddivad";
+    content: "hc.knirepeiddivad";
 }
 span.rev.email:after {
-	content: "tcatnoc";
+    content: "tcatnoc";
 }
 span.rev.phone:before {
-	content: "03 09 956 ";
+    content: "03 09 956 ";
 }
 span.rev.phone:after {
-	content: " 14+";
+    content: " 14+";
+}
+
+#experiences-description {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    padding-left: 1rem;
+}
+
+.enterprise-logo {
+    width: 40px;
+    height: 40px;
 }
