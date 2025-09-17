@@ -2,15 +2,19 @@ span.rev {
     unicode-bidi: bidi-override;
     direction: rtl;
 }
+
 span.rev.email:before {
     content: "hc.knirepeiddivad";
 }
+
 span.rev.email:after {
     content: "tcatnoc";
 }
+
 span.rev.phone:before {
     content: "03 09 956 ";
 }
+
 span.rev.phone:after {
     content: " 14+";
 }
@@ -30,6 +34,7 @@ span.rev.phone:after {
     .enterprise-logo {
         display: none;
     }
+
     .experiences-description {
         padding: 0;
         margin: 0;
