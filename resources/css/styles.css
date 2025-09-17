@@ -12,7 +12,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-    --blue: #007bff;
+    --blue: #2272db;
     --indigo: #6610f2;
     --purple: #6f42c1;
     --pink: #e83e8c;
@@ -132,6 +132,7 @@ ul,
 dl {
     margin-top: 0;
     margin-bottom: 1rem;
+    padding-left: 1.5rem;
 }
 
 ol ol,
@@ -2691,43 +2692,43 @@ fieldset:disabled a.btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #bd5d38;
-    border-color: #bd5d38;
+    background-color: #2272db;
+    border-color: #2272db;
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #9f4e2f;
-    border-color: #964a2c;
+    background-color: #1d5fb8;
+    border-color: #1b57a9;
 }
 
 .btn-primary:focus,
 .btn-primary.focus {
     color: #fff;
-    background-color: #9f4e2f;
-    border-color: #964a2c;
-    box-shadow: 0 0 0 0.2rem rgba(199, 117, 86, 0.5);
+    background-color: #1d5fb8;
+    border-color: #1b57a9;
+    box-shadow: 0 0 0 0.2rem rgba(34, 114, 219, 0.5);
 }
 
 .btn-primary.disabled,
 .btn-primary:disabled {
     color: #fff;
-    background-color: #bd5d38;
-    border-color: #bd5d38;
+    background-color: #7daeea;
+    border-color: #7daeea;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
 .show>.btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #964a2c;
-    border-color: #8c4529;
+    background-color: #1a4e91;
+    border-color: #184886;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show>.btn-primary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 0.2rem rgba(199, 117, 86, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(34, 114, 219, 0.5);
 }
 
 .btn-secondary {
