@@ -23,11 +23,16 @@ span.rev.phone:after {
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
     padding-left: 1rem;
+    max-width: 60rem;
 }
 
 .enterprise-logo {
     width: 40px;
     height: 40px;
+}
+
+.educations-description {
+    max-width: 60rem;
 }
 
 @media (max-width: 768px) {
