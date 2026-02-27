@@ -301,6 +301,21 @@ section.resume-section .resume-section-content {
     box-shadow: 0 26px 38px -25px rgba(11, 33, 64, 0.34);
 }
 
+#educations .resume-section-content>div.d-flex.flex-column.flex-md-row.justify-content-between .flex-grow-1,
+#experiences .resume-section-content>div.d-flex.flex-column.flex-md-row.justify-content-between .flex-grow-1,
+#projects .resume-section-content>div.d-flex.flex-column.flex-md-row.justify-content-between .flex-grow-1 {
+    width: 100%;
+}
+
+#educations .resume-section-content>div.d-flex.flex-column.flex-md-row.justify-content-between .flex-grow-1 p,
+#experiences .resume-section-content>div.d-flex.flex-column.flex-md-row.justify-content-between .flex-grow-1 p,
+#projects .resume-section-content>div.d-flex.flex-column.flex-md-row.justify-content-between .flex-grow-1 p,
+#educations .resume-section-content>div.d-flex.flex-column.flex-md-row.justify-content-between .flex-grow-1 ul,
+#experiences .resume-section-content>div.d-flex.flex-column.flex-md-row.justify-content-between .flex-grow-1 ul,
+#projects .resume-section-content>div.d-flex.flex-column.flex-md-row.justify-content-between .flex-grow-1 ul {
+    max-width: none;
+}
+
 #educations .flex-shrink-0 .text-primary,
 #experiences .flex-shrink-0 .text-primary,
 #projects .flex-shrink-0 .text-primary {
@@ -329,13 +344,19 @@ section.resume-section .resume-section-content {
 }
 
 .educations-description {
-    max-width: 68ch;
+    max-width: none;
+    color: var(--text-muted);
+    margin-top: 0;
+}
+
+#projects .ml-md-5>p.text-justify {
+    max-width: none;
     color: var(--text-muted);
     margin-top: 0;
 }
 
 .experiences-description {
-    max-width: 68ch;
+    max-width: none;
     margin: 0.75rem 0;
     padding-left: 1.1rem;
     color: var(--text-muted);
