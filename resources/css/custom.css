@@ -380,6 +380,7 @@ section.resume-section .resume-section-content {
 }
 
 .enterprise-logo {
+    display: none;
     width: 48px;
     height: 48px;
     object-fit: cover;
@@ -456,6 +457,9 @@ hr.m-0 {
 }
 
 @media (min-width: 768px) {
+    .enterprise-logo {
+        display: block;
+    }
 
     #experiences .ml-md-5,
     #projects .ml-md-5 {
@@ -538,11 +542,6 @@ hr.m-0 {
     #experiences .flex-shrink-0 .text-primary,
     #projects .flex-shrink-0 .text-primary {
         margin-top: 0.2rem;
-    }
-
-    .enterprise-logo {
-        width: 42px;
-        height: 42px;
     }
 
     .experiences-description {
