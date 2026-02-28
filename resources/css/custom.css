@@ -549,6 +549,12 @@ hr.m-0 {
     }
 
     #projects .ml-md-5>.d-flex {
+        gap: 0.5rem;
+    }
+}
+
+@media (max-width: 640px) {
+    #projects .ml-md-5>.d-flex {
         flex-direction: column;
         align-items: flex-start !important;
         gap: 0.5rem;
